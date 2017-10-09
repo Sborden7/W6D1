@@ -1,0 +1,30 @@
+/* PHASE 7: Online */
+.online {
+  color: white;
+  position: absolute;
+  background-color: magenta;
+  transform: rotate(-0.1turn);
+  z-index: 1;
+  left: -20px;
+  top: 20px;
+  padding: 0 40px;
+  text-transform: uppercase;
+  box-shadow: 2px 5px 10px black;
+
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.profile-picture {
+  overflow: hidden;
+}
+
+@keyframes example {
+    from {background-color: yellow;}
+    to {background-color: magenta;}
+    from {color: lightgreen;}
+    to {color: white;}
+
+}
